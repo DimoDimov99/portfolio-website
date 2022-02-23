@@ -155,10 +155,11 @@ main {
     border: 3px #fff solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
-    @include easeOut;
+    // @include easeOut;
 
     &:hover {
-      padding: 0.5rem 1.5rem;
+    @include easeOut();
+    //   padding: 0.5rem 1.5rem;
       background: $secondary-color;
       color: set-text-color($secondary-color);
       span {
@@ -224,5 +225,14 @@ main {
 
 
 }
+
+.center {
+    text-align: center;
+}
+
+// .icon-border {
+//     border: 1px solid $secondary-color;
+//     padding: 6px;
+// }
 
 @import "mobile";

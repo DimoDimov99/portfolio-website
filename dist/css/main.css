@@ -207,10 +207,9 @@ main {
     font-size: 2rem;
     border: 3px #fff solid;
     padding: 1.5rem 2.5rem;
-    margin-bottom: 3rem;
-    transition: all 0.5s ease-out; }
+    margin-bottom: 3rem; }
     .boxes div:hover {
-      padding: 0.5rem 1.5rem;
+      transition: all 0.5s ease-out;
       background: #64dfdf;
       color: #000; }
       .boxes div:hover span {
@@ -246,6 +245,9 @@ main {
       #main-footer .icons a:hover {
         color: #64dfdf;
         transition: all 0.5s ease-out; }
+
+.center {
+  text-align: center; }
 
 @media screen and (min-width: 1171px) {
   .projects {
